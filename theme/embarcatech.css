@@ -1,0 +1,66 @@
+/*
+@theme embarcatech
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'default';
+
+/******************* common styles *****************************/
+
+:root {
+  font-family: "Barlow", sans-serif;
+  --h1-color: black;
+  --weight-thin: 100;
+  --weight-extralight: 200;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+  --weight-black: 900;
+
+}
+
+section {
+  /* width: 1920px; */
+  /* height: 1080px; */
+  /* font-family: "Barlow", sans-serif; */
+  font-weight: var(--weight-light);
+  /* font-size: 36pt; */
+}
+
+section h1 {
+  font-weight: var(--weight-semibold);
+}
+
+/* cover class
+Use: <!-- _class: cover --> */
+section.cover {
+    background-image: url('theme/capa.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 4em;
+    color: white;
+}
+section.cover h1, section.cover h2 {
+    color: white;
+    font-size: 2.5em;
+}
+/* section.cover p { */
+/*     color: white; */
+/*     margin: 0em; */
+/*     padding-top: 0.2em; */
+/*     padding-bottom: 0.2em; */
+/* } */
+
+section.cover a {
+    color: white;
+    background-color: transparent !important;
+}
+
+section.cover footer, section.cover:after {
+    /* hide footer and pagination */
+    display: none;
+}

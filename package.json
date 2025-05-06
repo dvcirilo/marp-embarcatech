@@ -1,0 +1,11 @@
+{
+  "marp": {
+    "lang": "pt-BR",
+    "theme": "embarcatech.css",
+    "themeSet": "theme/",
+    "html": true,
+    "bespoke": {
+        "progress": true
+    }
+  }
+}
