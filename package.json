@@ -1,8 +1,7 @@
 {
   "marp": {
     "lang": "pt-BR",
-    "theme": "embarcatech.css",
-    "themeSet": "theme/",
+    "theme": "https://raw.githubusercontent.com/dvcirilo/marp-embarcatech/refs/heads/main/theme/embarcatech.css",
     "html": true,
     "bespoke": {
         "progress": true

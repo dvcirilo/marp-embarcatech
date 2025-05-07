@@ -13,8 +13,6 @@
 
 @import 'default';
 
-/******************* common styles *****************************/
-
 :root {
   font-family: "Barlow", sans-serif;
   --weight-light: 300;
@@ -36,7 +34,7 @@ section h1 {
 /* cover class
 Use: <!-- _class: cover --> */
 section.cover {
-    background-image: url('theme/capa.webp');
+    background-image: url('https://raw.githubusercontent.com/dvcirilo/marp-embarcatech/refs/heads/main/theme/capa.webp');
     background-size: cover;
     background-repeat: no-repeat;
     padding-left: 3.5em;
@@ -58,7 +56,7 @@ section.cover a {
 }
 
 section.cover2 {
-    background-image: url('theme/capa2.webp');
+    background-image: url('https://raw.githubusercontent.com/dvcirilo/marp-embarcatech/refs/heads/main/theme/capa2.webp');
     background-size: cover;
     background-repeat: no-repeat;
     color: #eee;
@@ -72,19 +70,19 @@ section.cover2 a {
 }
 
 section.style1 {
-    background-image: url('theme/slide01.svg');
+    background-image: url('https://raw.githubusercontent.com/dvcirilo/marp-embarcatech/refs/heads/main/theme/slide01.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 section.style2 {
-    background-image: url('theme/slide02.svg');
+    background-image: url('https://raw.githubusercontent.com/dvcirilo/marp-embarcatech/refs/heads/main/theme/slide02.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 section.style3 {
-    background-image: url('theme/slide03.svg');
+    background-image: url('https://raw.githubusercontent.com/dvcirilo/marp-embarcatech/refs/heads/main/theme/slide03.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
