@@ -1,12 +1,11 @@
 ---
 marp: true
-# Metadata, in HTML and PDF
 title: Embarcatech Marp
-description: Modelo de Slides Embarcatech
 author: Diego Cirilo
 keywords: marp,tutorial
 theme: embarcatech
 paginate: true
+_paginate: false
 ---
 <!-- _class: cover -->
 
@@ -15,15 +14,24 @@ paginate: true
 Unidade X | Capítulo X
 
 ---
+<!-- _class: cover2 -->
 # Sumário
 
-1. [Coisa](#3)
-1. [Jugar con los estilos](#17)
-1. [Tema personalizado](#23)
-1. [En el día a día](#35)
-1. [Notas adicionales](#39)
+1. [Objetivos](#3)
+1. [Equações](#4)
+1. [Título Slide](#5)
+1. [Revisão](#6)
+1. [Conclusão](#7)
 
 ---
+<!-- _class: style2 -->
+# Objetivos
+
+- Compreender..
+- Analisar...
+
+---
+<!-- _class: style3 -->
 # Equações
 
 $$
@@ -36,6 +44,23 @@ $$
     &= m_1 \oplus m_2
 \end{aligned}
 $$
+
+---
+<!-- _class: style3 -->
+# Título Slide
+- Texto
+
+---
+<!-- _class: style1 -->
+# Revisão
+- Histórico
+- Conceitos
+- Etc...
+
+---
+<!-- _class: style1 -->
+# Conclusão
+- Texto
 
 ---
 <!-- _class: cover -->
